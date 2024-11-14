@@ -1,18 +1,3 @@
-// const mongoose = require("mongoose");
-
-// const BankSchema = new mongoose.Schema(
-//   {
-//     bankName: { type: String, required: true },
-//     city: { type: String, required: true },
-//     state: { type: String, required: true },
-//     branch: { type: String, required: true },
-//   },
-//   { timestamps: true }
-// );
-
-// module.exports = mongoose.model("Bank", BankSchema);
-
-
 const mongoose = require("mongoose");
 
 const BankSchema = new mongoose.Schema(
